@@ -5,8 +5,14 @@
   export let degree;
 </script>
 
-<div>
-  <strong>{institute}</strong>
-  <p>{from} - {to}</p>
-  <p>{degree}</p>
+<div class="education__item">
+  <strong>{degree}</strong>
+  <p class="text--italic">{from} - {to}</p>
+  <p>{institute}</p>
 </div>
+
+<style>
+  .education__item {
+    margin-bottom: 1em;
+  }
+</style>

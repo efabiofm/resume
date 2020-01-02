@@ -10,3 +10,28 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	-webkit-print-color-adjust: exact !important;
 }
+
+strong, p {
+	line-height: 26px;
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.separator {
+	margin: 3em 0;
+}
+
+.text--italic {
+	font-style: italic;
+}
+
+@media print {
+	@page {
+		size: A4;
+		margin: 0;
+	}
+}

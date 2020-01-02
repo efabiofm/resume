@@ -5,8 +5,8 @@
 
 <section>
   <h2>Education</h2>
-
+  <hr>
   {#each educationItems as item}
-    <EducationItem {...item} />  
+    <EducationItem {...item} />
   {/each}
 </section>

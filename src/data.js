@@ -1,6 +1,11 @@
 import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+export const headerText = {
+  name: 'Fabio Flores Manrique',
+  profession: 'Full-Stack Web Developer'
+};
+
 export const contactItems = [
   {
     icon: faEnvelope,
@@ -12,7 +17,7 @@ export const contactItems = [
   },
   {
     icon: faMapMarkerAlt,
-    value: 'Uruca, San José, Costa Rica'
+    value: 'San José, Costa Rica'
   },
   {
     icon: faLinkedin,
@@ -24,14 +29,14 @@ export const educationItems = [
   {
     from: 'Jan. 2014',
     to: 'To Date',
-    institute: 'Universidad Cenfotec',
-    degree: 'Bachelor degree in Software Engineering'
+    institute: 'Cenfotec University, CR',
+    degree: 'Bachelor\'s in Software Engineering'
   },
   {
     from: 'Jan. 2011',
     to: 'Dec. 2012',
-    institute: 'Universidad Técnica Nacional',
-    degree: 'Associate\'s degree in Electronics'
+    institute: 'National Technical University, CR',
+    degree: 'Associate\'s in Electronics'
   }
 ];
 
@@ -86,6 +91,7 @@ export const skillsItems = [
   'Java',
   'C++',
   '.NET',
+  'Git',
   'React.js',
   'Vue.js',
   'Angular',
@@ -103,7 +109,6 @@ export const skillsItems = [
   'Jest',
   'JUnit',
   'Selenium',
-  'Git',
   'CD/CI',
   'RESTful',
   'Scrum',

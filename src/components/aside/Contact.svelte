@@ -5,10 +5,23 @@
 
 <section>
   <h2>Contact</h2>
-  {#each contactItems as item}
-    <p>
-      <Icon icon={item.icon}></Icon>
-      <span>{item.value}</span>
-    </p>
-  {/each}
+  <hr>
+  <table>
+    <tbody>
+      {#each contactItems as item}
+        <tr>
+          <td class="icon-row">
+            <Icon icon={item.icon}></Icon>
+          </td>
+          <td>{item.value}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
 </section>
+
+<style>
+  .icon-row {
+    padding-right: .5em;
+  }
+</style>

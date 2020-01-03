@@ -12,7 +12,15 @@
     <p class="text--italic">{from} - {to}</p>
   </div>
   <h4>{position}</h4>
-  <p>{description}</p>
+  {#if typeof description === 'object'}
+    <ul>
+      {#each description as line}
+        <li>{line}</li>
+      {/each}
+    </ul>
+  {:else}
+    <p>{description}</p>
+  {/if}
 </div>
 
 <style>
@@ -20,8 +28,8 @@
     margin-bottom: 1.5em;
   }
 
-  .experience__item:last-child {
-    padding-top: 8em;
+  .experience__item:nth-child(6) {
+    padding-top: 5em;
   }
 
   .experience__item__title {

@@ -11,14 +11,21 @@ body {
 	-webkit-print-color-adjust: exact !important;
 }
 
-strong, p {
-	line-height: 26px;
+p {
 	margin: 0;
+}
+
+p, strong, ul {
+	line-height: 26px;
 }
 
 h1, h2, h3, h4 {
 	margin: 0;
 	text-transform: uppercase;
+}
+
+ul {
+	padding-left: 17px;
 }
 
 .separator {

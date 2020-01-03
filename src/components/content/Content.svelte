@@ -6,7 +6,6 @@
 </script>
 
 <section class="content">
-  <div class="separator"></div>
   <Summary />
   <div class="separator"></div>
   <Experience />
@@ -18,6 +17,6 @@
 
 <style>
   .content {
-    padding: 1em 2em 2em;
+    padding: 3em 2em 2em;
   }
 </style>

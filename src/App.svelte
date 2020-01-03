@@ -4,11 +4,13 @@
 	import Content from './components/content/Content.svelte';
 </script>
 
-<Header />
-<div class="resume__body">
-	<Aside />
-	<Content />
-</div>
+<main>
+	<Header />
+	<div class="resume__body">
+		<Aside />
+		<Content />
+	</div>
+</main>
 
 <style>
 	.resume__body {

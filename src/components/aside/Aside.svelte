@@ -5,7 +5,6 @@
 </script>
 
 <aside>
-  <div class="separator"></div>
   <Contact />
   <div class="separator"></div>
   <Education />
@@ -16,8 +15,8 @@
 <style>
   aside {
     background: #f5f6f5;
-    padding: 1em 2em 2em;
+    padding: 5em 2em 2em;
     width: 632px;
-    height: 2033px;
+    height: 1969px;
   }
 </style>

@@ -1,9 +1,14 @@
 <script>
+  import Icon from 'fa-svelte';
+  import { faCog } from '@fortawesome/free-solid-svg-icons';
   import { skillsItems } from '../../data.js';
 </script>
 
 <section>
-  <h2>Skills</h2>
+  <h2>
+    <Icon icon={faCog} />
+    <span>&nbsp;Skills</span>
+  </h2>
   <hr>
   <br>
   {#each skillsItems as item}

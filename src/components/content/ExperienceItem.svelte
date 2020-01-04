@@ -36,6 +36,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   h4 {
     margin-bottom: .8em;
     color: #888;

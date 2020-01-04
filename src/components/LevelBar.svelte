@@ -17,6 +17,6 @@
 
   .level-bar,
   .level-bar__fill {
-    height: 16px;
+    height: 12px;
   }
 </style>

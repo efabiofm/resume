@@ -1,5 +1,5 @@
 import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const headerText = {
   name: 'Fabio Flores Manrique',
@@ -20,8 +20,8 @@ export const contactItems = [
     value: 'San José, Costa Rica'
   },
   {
-    icon: faLinkedin,
-    value: '/in/fabio-flores-manrique-9689199b'
+    icon: faGithub,
+    value: 'github.com/efabiofm'
   }
 ];
 

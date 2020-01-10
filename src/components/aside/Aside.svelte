@@ -16,7 +16,6 @@
   aside {
     background: #f5f6f5;
     padding: 5em 2em 2em;
-    width: 632px;
     height: 1969px;
   }
 </style>

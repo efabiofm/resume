@@ -6,22 +6,23 @@
 <section>
   <h2>Contact</h2>
   <hr>
-  <table>
-    <tbody>
-      {#each contactItems as item}
-        <tr>
-          <td class="icon-row">
-            <Icon icon={item.icon}></Icon>
-          </td>
-          <td>{item.value}</td>
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+  {#each contactItems as item}
+    <p class="contact__item">
+      <Icon icon={item.icon}></Icon>
+      <span>{item.value}</span>
+    </p>
+  {/each}
 </section>
 
 <style>
-  .icon-row {
-    padding-right: .5em;
+  .contact__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact__item span {
+    padding-left: .5em;
+    width: 169px;
+    overflow-y: inherit;
   }
 </style>

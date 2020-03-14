@@ -54,8 +54,8 @@ export const languagesItems = [
 ];
 
 export const summaryItems = [
-  'Full-stack web developer with 4+ years of experience building web and hybrid applications for multiple business areas.',
-  'Knowledge in functional programming, test-driven development, continuous delivery and agile methodologies.',
+  'Full-stack web developer with 4+ years of experience building web and hybrid apps for many different kind of businesses.',
+  'Solid knowledge in functional programming, test-driven development, continuous delivery and agile methodologies.',
   'Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
 ];
 

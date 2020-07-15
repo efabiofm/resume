@@ -1,16 +1,10 @@
 <script>
   import Icon from 'fa-svelte';
-  import { faCog } from '@fortawesome/free-solid-svg-icons';
   import { skillsItems } from '../../data.js';
 </script>
 
 <section>
-  <h2>
-    <Icon icon={faCog} />
-    <span>&nbsp;Skills</span>
-  </h2>
-  <hr>
-  <br>
+  <h2 class="text--uppercase">Tech Skills</h2><br>
   {#each skillsItems as item}
     <span class="skills__tag">{item}</span>
   {/each}
@@ -18,10 +12,12 @@
 
 <style>
   .skills__tag {
-    border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
-    margin: 0 8px 8px 0;
+    margin: 0 5px 5px 0;
     display: inline-block;
+    background: #4f90cd;
+    color: white;
+    font-size: 12px;
   }
 </style>

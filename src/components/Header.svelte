@@ -1,43 +1,50 @@
 <script>
   import { headerText } from '../data.js';
-  const { name, profession } = headerText;
+  const { name, profession, description } = headerText;
 </script>
 
 <header>
-  <div class="header__picture">
-    <img src="me.jpg" alt="me" />
-  </div>
   <div class="header__info">
     <h1>{name}</h1>
     <h2>{profession}</h2>
+    <p class="description">{description}</p>
+  </div>
+  <div class="header__picture">
+    <img src="me.jpg" alt="me" />
   </div>
 </header>
 
 <style>
 	header {
-		height: 163px;
-		background: #333;
+		background: #374458;
     color: white;
     display: flex;
+    padding: 1.5em 2em 1em 2em;
   }
 
-  .header__picture {
-    padding: 3em 2em;
-  }
-
-  .header__info {
-    padding-top: 3.5em;
+  .header__info > h1,
+  .header__info > h2 {
+    font-weight: normal;
   }
 
   img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     position: relative;
+    border: 5px solid #4f90cd;
+  }
+
+  h1 {
+    font-size: 33px;
   }
 
   h2 {
-    margin-top: .5em;
-    color: #ccc;
+    color: #4f90cd;
+    margin-bottom: .5em;
+  }
+
+  .description {
+    padding-right: 1em;
   }
 </style>

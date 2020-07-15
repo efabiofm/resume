@@ -4,8 +4,7 @@
 </script>
 
 <section>
-  <h2>Education</h2>
-  <hr>
+  <h2 class="text--uppercase">Education</h2>
   {#each educationItems as item}
     <EducationItem {...item} />
   {/each}

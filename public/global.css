@@ -16,16 +16,29 @@ p {
 }
 
 p, strong, ul {
-	line-height: 26px;
+	line-height: 21px;
+	font-size: 12px;
 }
 
 h1, h2, h3, h4 {
 	margin: 0;
-	text-transform: uppercase;
 }
 
 ul {
 	padding-left: 17px;
+}
+
+hr {
+	border: 2px solid #4f90cd;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .separator {
@@ -34,6 +47,37 @@ ul {
 
 .text--italic {
 	font-style: italic;
+}
+
+.text--uppercase {
+	text-transform: uppercase;
+	color: #4f90cd;
+	font-size: 20px;
+	display: inline-block;
+	border-bottom: 3px solid;
+	margin-bottom: .5em;
+}
+
+.text--date {
+	color: #4f90cd;
+	font-size: 12px;
+}
+
+.text--bold {
+	font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #4f90cd;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+	margin-left: -1em;
 }
 
 @media print {

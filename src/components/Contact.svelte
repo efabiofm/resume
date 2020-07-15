@@ -1,11 +1,9 @@
 <script>
   import Icon from 'fa-svelte';
-  import { contactItems } from '../../data.js';
+  import { contactItems } from '../data.js';
 </script>
 
-<section>
-  <h2>Contact</h2>
-  <hr>
+<section class="contact">
   {#each contactItems as item}
     <p class="contact__item">
       <Icon icon={item.icon}></Icon>
@@ -15,9 +13,16 @@
 </section>
 
 <style>
+  .contact {
+    background: #2b343f;
+    color: white;
+    padding: .5em;
+    text-align: center;
+  }
+  
   .contact__item {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    margin-right: 2em;
   }
 
   .contact__item span {

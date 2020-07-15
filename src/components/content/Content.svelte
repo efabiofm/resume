@@ -1,22 +1,17 @@
 <script>
-  import Summary from './Summary.svelte';
   import Skills from './Skills.svelte';
-  import Experience from './Experience.svelte';
-  import References from './References.svelte';
+  import Education from './Education.svelte';
+  import Projects from './Projects.svelte';
 </script>
 
-<section class="content">
-  <Summary />
-  <div class="separator"></div>
-  <Experience />
-  <div class="separator"></div>
+<section class="column-right">
+  <Education />
+  <Projects />
   <Skills />
-  <div class="separator"></div>
-  <References />
 </section>
 
 <style>
-  .content {
-    padding: 3em 2em 2em;
+  .column-right {
+    padding: 1.5em 2em 0 1em;
   }
 </style>

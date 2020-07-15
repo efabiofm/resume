@@ -93,7 +93,7 @@ export const experienceItems = [
     to: 'Apr. 2014',
     company: 'Ingram Micro CR',
     position: 'Electronic Technician',
-    description: ['Responsible for repairing mobile devices from a wide range of well-known brands coming from T-Mobile in the United States, going from the troubleshooting process to circuit board components replacement.']
+    description: ['Responsible for troubleshooting and circuit board repair of mobile devices from a wide range of well-known brands coming from T-Mobile in the United States.']
   }
 ];
 

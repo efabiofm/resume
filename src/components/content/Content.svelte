@@ -12,6 +12,6 @@
 
 <style>
   .column-right {
-    padding: 1.5em 2em 0 1em;
+    padding: 2em 2em 0 1em;
   }
 </style>

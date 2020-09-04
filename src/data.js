@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export const headerText = {
   name: 'Fabio Flores Manrique',
   profession: 'Software Engineer',
-  description: 'Full-stack web developer with 4+ years of experience building web & hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
+  description: 'Full-Stack Web Developer with +5 years of experience building web & hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
 };
 
 export const contactItems = [
@@ -59,25 +59,23 @@ export const experienceItems = [
     from: 'Feb. 2019',
     to: 'To Date',
     company: 'Gorilla Logic LLC',
-    position: 'Web Developer',
+    position: 'Full-Stack Web Developer',
     description: [
-      'Create different versions of landing pages with lead generation forms using vanilla JavaScript for A/B testing.',
-      'Customize UI components using Vanilla JavaScript and SASS',
-      'Create reusable React components to speed up the landing pages delivery process.',
-      'Create AWS lambda functions for landing pages to consume.'
+      'Add new features and bug fixes to JumpCloud\'s administrator portal built with Vue.js on the frontend and Node.js, Golang and MongoDB on the backend.',
+      'Create different versions of landing pages with lead generation forms for A Place for Mom using vanilla JavaScript for A/B testing.'
     ]
   },
   {
     from: 'Sep. 2015',
     to: 'Feb. 2019',
     company: 'Ciris Informatic Solutions',
-    position: 'Web Developer',
+    position: 'Full-Stack Web Developer',
     description: [
       'Develop web applications using Vue.js and AngularJS.',
       'Build hybrid applications using Ionic and NativeScript.',
       'Create RESTful web services using Node.js and Express.js.',
       'Design database schemas using MongoDB and Firebase.',
-      'Setup and maintain Linux servers for production deployments.',
+      'Get Linux servers ready for production deployments.',
       'Setup continuous integration and delivery pipelines.'
     ]
   },
@@ -99,6 +97,13 @@ export const experienceItems = [
 
 export const projectItems = [
   {
+    name: 'JumpCloud',
+    date: '(07/2020 - To Date)',
+    description: [
+      'Admin portal built in Vue.js, Node.js, Golang, MongoDB and PostgreSQL.'
+    ]
+  },
+  {
     name: 'A Place for Mom',
     date: '(06/2019 – 06/2018)',
     description: [
@@ -110,14 +115,6 @@ export const projectItems = [
     date: '(11/2018 – 06/2019)',
     description: [
       'Progressive Web App built with Vue.js, Node.js and MongoDB'
-    ]
-  },
-  {
-    name: 'Laboratorio Histocito',
-    date: '(07/2017 – 08/2018)',
-    description: [
-      'Migration from Scala to Node.js',
-      'Zoho invoice module integration'
     ]
   },
   {
@@ -143,27 +140,24 @@ export const skillsItems = [
   'Vue.js',
   'React.js',
   'Angular',
+  'Docker',
   'MongoDB',
   'HTML',
   'CSS/SCSS',
+  'NativeScript',
   'Git',
+  'Ionic',
   'NPM',
   'AWS',
   'Firebase',
-  'Ionic',
-  'NativeScript',
+  'Java',
   'CD/CI',
   'TDD',
   'PWA',
-  'Gulp',
-  'Webpack',
   'Jest',
   'Linux',
-  'Java',
   'Selenium',
-  'JUnit',
-  'Scrum',
-  'REST API',
-  'MySQL',
-  'A/B Testing'
+  'REST',
+  'SQL',
+  'Scrum'
 ];

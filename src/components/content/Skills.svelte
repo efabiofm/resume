@@ -5,12 +5,17 @@
 
 <section>
   <h2 class="text--uppercase">Tech Skills</h2><br>
-  {#each skillsItems as item}
-    <span class="skills__tag">{item}</span>
-  {/each}
+  <div class="skills__container">
+    {#each skillsItems as item}
+      <span class="skills__tag">{item}</span>
+    {/each}
+  </div>
 </section>
 
 <style>
+  .skills__container {
+    margin-bottom: 1em;
+  }
   .skills__tag {
     padding: 5px;
     border-radius: 5px;

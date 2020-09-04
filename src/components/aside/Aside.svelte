@@ -10,7 +10,7 @@
 
 <style>
   .column-left {
-    width: 100em;
+    width: 80em;
     padding: 2em 1em 2em 2em;
   }
 </style>

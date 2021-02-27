@@ -5,7 +5,9 @@
 </script>
 
 <div>
-  <h4>{name} {date}</h4>
+  <h4>
+    <strong>{name} {date}</strong>
+  </h4>
   <ul>
     {#each description as line}
       <li>{line}</li>

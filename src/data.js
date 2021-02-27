@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export const headerText = {
   name: 'Fabio Flores Manrique',
   profession: 'Software Engineer',
-  description: 'Full-Stack Web Developer with +5 years of experience building web & hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
+  description: 'Full-Stack Web Developer with +5 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
 };
 
 export const contactItems = [
@@ -57,12 +57,13 @@ export const languagesItems = [
 export const experienceItems = [
   {
     from: 'Feb. 2019',
-    to: 'To Date',
+    to: 'Nov. 2020',
     company: 'Gorilla Logic LLC',
     position: 'Full-Stack Web Developer',
     description: [
-      'Add new features and bug fixes to JumpCloud\'s administrator portal built with Vue.js on the frontend and Node.js, Golang and MongoDB on the backend.',
-      'Create different versions of landing pages with lead generation forms for A Place for Mom using vanilla JavaScript for A/B testing.'
+      'Add new features and bug fixes to web applications built in Vue.js, Node.js, Golang and MongoDB.',
+      'Create landing pages with lead generation forms using vanilla JavaScript and GTM for A/B testing.',
+      'Implement React, AWS Lambdas and S3 to add extra functionality to single page websites.'
     ]
   },
   {
@@ -84,51 +85,51 @@ export const experienceItems = [
     to: 'Sep. 2015',
     company: 'Sykes Latin America',
     position: 'Customer Service Agent',
-    description: ['Responsible for providing high quality and accurate resolutions to Intel’s internal customers in the United States by answering general inquiries via phone or email.']
+    description: ''
   },
   {
     from: 'Jan. 2013',
     to: 'Apr. 2014',
     company: 'Ingram Micro CR',
     position: 'Electronic Technician',
-    description: ['Responsible for troubleshooting and circuit board repair of mobile devices from a wide range of well-known brands coming from T-Mobile in the United States.']
+    description: ''
   }
 ];
 
 export const projectItems = [
   {
     name: 'JumpCloud',
-    date: '(07/2020 - To Date)',
+    date: '(07/2020 - 10/2020)',
     description: [
-      'Admin portal built in Vue.js, Node.js, Golang, MongoDB and PostgreSQL.'
+      'Admin portal built in Vue.js, Node.js, Golang and MongoDB.'
     ]
   },
   {
     name: 'A Place for Mom',
     date: '(06/2019 – 06/2018)',
     description: [
-      'Lead generation forms built with vanilla JavaScript and React.js'
+      'Landing pages built in vanilla JavaScript, React, AWS and GTM'
     ]
   },
   {
     name: 'UACFel',
     date: '(11/2018 – 06/2019)',
     description: [
-      'Progressive Web App built with Vue.js, Node.js and MongoDB'
+      'Progressive Web App built in Vue.js, Node.js and MongoDB'
     ]
   },
   {
     name: 'Agrotico',
     date: '(07/2017 – 07/2018)',
     description: [
-      'Hybrid application built with Vue.js, Cordova, Node.js and MongoDB'
+      'Hybrid application built in Vue.js, Cordova, Node.js and MongoDB'
     ]
   },
   {
     name: 'FireLab Aries',
     date: '(12/2015 – 12/2017)',
     description: [
-      'Hybrid and Web application built with Ionic, AngularJS, Node.js, Firebase and MongoDB'
+      'Hybrid and Web application built in Ionic, AngularJS, Node.js, Firebase and MongoDB'
     ]
   }
 ]
@@ -140,24 +141,26 @@ export const skillsItems = [
   'Vue.js',
   'React.js',
   'Angular',
+  'Mongoose',
   'Docker',
   'MongoDB',
   'HTML',
-  'CSS/SCSS',
+  'CSS',
+  'SCSS',
+  'PWA',
   'NativeScript',
   'Git',
   'Ionic',
   'NPM',
   'AWS',
   'Firebase',
-  'Java',
   'CD/CI',
-  'TDD',
-  'PWA',
+  'Java',
   'Jest',
   'Linux',
-  'Selenium',
+  'Cypress',
   'REST',
   'SQL',
-  'Scrum'
+  'Scrum',
+  'Svelte'
 ];

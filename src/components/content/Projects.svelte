@@ -3,7 +3,7 @@
   import { projectItems } from '../../data.js';
 </script>
 
-<section>
+<section class="mt-6">
   <h2 class="text--uppercase">Main Projects</h2>
   {#each projectItems as item}
     <ProjectItem {...item} />

@@ -16,7 +16,7 @@ p {
 }
 
 p, strong, ul {
-	line-height: 21px;
+	line-height: 22px;
 	font-size: 12px;
 }
 
@@ -78,6 +78,14 @@ ul li::before {
   display: inline-block; 
   width: 1em;
 	margin-left: -1em;
+}
+
+section h2 {
+	margin-bottom: 16px !important;
+}
+
+.mt-6 {
+	margin-top: 24px !important;
 }
 
 @media print {

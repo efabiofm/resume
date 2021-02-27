@@ -10,7 +10,7 @@
   <div class="experience__item__title">
     <h3 class="text--bold">{position}</h3>
   </div>
-  <h3>{company}</h3>
+  <h3 class="experience__item__company">{company}</h3>
   <div>
     <p class="text--date">{from} - {to}</p>
     {#if typeof description === 'object'}
@@ -33,6 +33,14 @@
   .experience__item__title {
     display: flex;
     justify-content: space-between;
+  }
+
+  .experience__item__company {
+    margin: 4px 0;
+  }
+
+  .text--date {
+    margin-bottom: 8px;
   }
 
   ul {

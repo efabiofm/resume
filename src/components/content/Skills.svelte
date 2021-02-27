@@ -3,7 +3,7 @@
   import { skillsItems } from '../../data.js';
 </script>
 
-<section>
+<section class="mt-6">
   <h2 class="text--uppercase">Tech Skills</h2><br>
   <div class="skills__container">
     {#each skillsItems as item}

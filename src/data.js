@@ -29,7 +29,7 @@ export const contactItems = [
 export const educationItems = [
   {
     from: 'Jan. 2014',
-    to: 'To Date',
+    to: 'Dic. 2020',
     institute: 'Universidad Cenfotec',
     degree: 'Bachelor\'s in Software Engineering'
   },
@@ -56,10 +56,20 @@ export const languagesItems = [
 
 export const experienceItems = [
   {
+    from: 'Mar. 2021',
+    to: 'To Date',
+    company: 'Cecropia Solutions',
+    position: 'Front-End Developer',
+    description: [
+      'Work on internal project creating new views using Angular to show data from backend, refactor code to follow better practices and improve styling.',
+      'Integrate shipping services with e-commerce platforms using ShipEngine.'
+    ]
+  },
+  {
     from: 'Feb. 2019',
-    to: 'Nov. 2020',
+    to: 'Set. 2020',
     company: 'Gorilla Logic LLC',
-    position: 'Full-Stack Web Developer',
+    position: 'Full-Stack Developer',
     description: [
       'Add new features and bug fixes to web applications built in Vue.js, Node.js, Golang and MongoDB.',
       'Create landing pages with lead generation forms using vanilla JavaScript and GTM for A/B testing.',
@@ -70,7 +80,7 @@ export const experienceItems = [
     from: 'Sep. 2015',
     to: 'Feb. 2019',
     company: 'Ciris Informatic Solutions',
-    position: 'Full-Stack Web Developer',
+    position: 'Full-Stack Developer',
     description: [
       'Develop web applications using Vue.js and AngularJS.',
       'Build hybrid applications using Ionic and NativeScript.',

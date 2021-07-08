@@ -56,14 +56,21 @@ export const languagesItems = [
 
 export const experienceItems = [
   {
-    from: 'Mar. 2021',
+    from: 'Set. 2020',
     to: 'To Date',
     company: 'Cecropia Solutions',
     position: 'Front-End Developer',
     description: [
-      'Work on internal project creating new views using Angular to show data from backend, refactor code to follow better practices and improve styling.',
-      'Integrate shipping services with e-commerce platforms using ShipEngine.'
-    ]
+      'Work on internal projects creating new views using Angular 9, code refactoring and styling improvements.',
+      'Integrate shipping services with e-commerce platforms using ShipEngine.',
+      'Read data created by machine learning algorithms to create plots, tables and other UI elements using Vue.js.'
+    ],
+    participation: {
+      architectureAndDesign: '20%',
+      development: '80%',
+      qa: '0%',
+      devOps: '0%'
+    }
   },
   {
     from: 'Feb. 2019',
@@ -74,7 +81,13 @@ export const experienceItems = [
       'Add new features and bug fixes to web applications built in Vue.js, Node.js, Golang and MongoDB.',
       'Create landing pages with lead generation forms using vanilla JavaScript and GTM for A/B testing.',
       'Implement React, AWS Lambdas and S3 to add extra functionality to single page websites.'
-    ]
+    ],
+    participation: {
+      architectureAndDesign: '10%',
+      development: '80%',
+      qa: '5%',
+      devOps: '5%'
+    }
   },
   {
     from: 'Sep. 2015',
@@ -86,61 +99,47 @@ export const experienceItems = [
       'Build hybrid applications using Ionic and NativeScript.',
       'Create RESTful web services using Node.js and Express.js.',
       'Design database schemas using MongoDB and Firebase.',
-      'Get Linux servers ready for production deployments.',
       'Setup continuous integration and delivery pipelines.'
-    ]
-  },
-  {
-    from: 'Oct. 2014',
-    to: 'Sep. 2015',
-    company: 'Sykes Latin America',
-    position: 'Customer Service Agent',
-    description: ''
-  },
-  {
-    from: 'Jan. 2013',
-    to: 'Apr. 2014',
-    company: 'Ingram Micro CR',
-    position: 'Electronic Technician',
-    description: ''
+    ],
+    participation: {
+      architectureAndDesign: '40%',
+      development: '40%',
+      qa: '0%',
+      devOps: '20%'
+    }
   }
 ];
 
 export const projectItems = [
   {
+    name: 'DDMRP Simulation',
+    date: '(03/2021 - To Date)',
+    description: 'Material Requirements Planning dashboard built in Vue.js.'
+  },
+  {
     name: 'JumpCloud',
     date: '(07/2020 - 10/2020)',
-    description: [
-      'Admin portal built in Vue.js, Node.js, Golang and MongoDB.'
-    ]
+    description: 'Directory-as-a-Service admin portal built in Vue.js, Node.js, and MongoDB.'
   },
   {
     name: 'A Place for Mom',
-    date: '(06/2019 – 06/2018)',
-    description: [
-      'Landing pages built in vanilla JavaScript, React, AWS and GTM'
-    ]
+    date: '(06/2018 – 06/2019)',
+    description: 'Landing pages built in vanilla JavaScript, React, AWS and GTM.'
   },
   {
     name: 'UACFel',
     date: '(11/2018 – 06/2019)',
-    description: [
-      'Progressive Web App built in Vue.js, Node.js and MongoDB'
-    ]
+    description: 'Progressive Web App built in Vue.js, Node.js and MongoDB.'
   },
   {
     name: 'Agrotico',
     date: '(07/2017 – 07/2018)',
-    description: [
-      'Hybrid application built in Vue.js, Cordova, Node.js and MongoDB'
-    ]
+    description: 'Hybrid application built in Vue.js, Cordova, Node.js and MongoDB.'
   },
   {
     name: 'FireLab Aries',
     date: '(12/2015 – 12/2017)',
-    description: [
-      'Hybrid and Web application built in Ionic, AngularJS, Node.js, Firebase and MongoDB'
-    ]
+    description: 'Hybrid and Web application built in Ionic, AngularJS, Node.js, Firebase and MongoDB'
   }
 ]
 

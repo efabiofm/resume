@@ -5,24 +5,17 @@
 </script>
 
 <div>
-  <h4>
-    <strong>{name} {date}</strong>
-  </h4>
   <ul>
-    {#each description as line}
-      <li>{line}</li>
-    {/each}
+    <li>
+      <strong>{name} {date}:</strong>
+      <span>{description}</span>
+    </li>
   </ul>
 </div>
 
 <style>
-  h4 {
-    font-weight: normal;
-    margin-bottom: 0;
-    font-size: 14px;
-  }
-
   ul {
     margin-top: 0;
+    margin-bottom: 8px;
   }
 </style>

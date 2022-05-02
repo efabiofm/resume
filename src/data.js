@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export const headerText = {
   name: 'Fabio Flores Manrique',
   profession: 'Software Engineer',
-  description: 'Full-Stack Web Developer with +5 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
+  description: 'Full-Stack Web Developer with +6 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
 };
 
 export const contactItems = [
@@ -56,8 +56,18 @@ export const languagesItems = [
 
 export const experienceItems = [
   {
-    from: 'Mar. 2021',
+    from: 'Sep. 2021',
     to: 'To Date',
+    company: 'Keeper Solutions',
+    position: 'Front-End Developer',
+    description: [
+      'Develop brand new web applications for users to build and deploy custom websites and ads on the web.',
+      'Add new endpoints on the backend and write Mongo scripts to update existing data with new properties.'
+    ]
+  },
+  {
+    from: 'Mar. 2021',
+    to: 'Sep. 2021',
     company: 'Cecropia Solutions',
     position: 'Front-End Developer',
     description: [
@@ -67,11 +77,11 @@ export const experienceItems = [
   },
   {
     from: 'Feb. 2019',
-    to: 'Set. 2020',
+    to: 'Sep. 2020',
     company: 'Gorilla Logic LLC',
     position: 'Full-Stack Developer',
     description: [
-      'Add new features and bug fixes to web applications built in Vue.js, Node.js, Golang and MongoDB.',
+      'Add new features and bug fixes to web applications built in Vue.js, Node.js and MongoDB.',
       'Create landing pages with lead generation forms using vanilla JavaScript and GTM for A/B testing.',
       'Implement React, AWS Lambdas and S3 to add extra functionality to single page websites.'
     ]
@@ -90,35 +100,35 @@ export const experienceItems = [
       'Setup continuous integration and delivery pipelines.'
     ]
   },
-  {
-    from: 'Oct. 2014',
-    to: 'Sep. 2015',
-    company: 'Sykes Latin America',
-    position: 'Customer Service Agent',
-    description: ''
-  },
-  {
-    from: 'Jan. 2013',
-    to: 'Apr. 2014',
-    company: 'Ingram Micro CR',
-    position: 'Electronic Technician',
-    description: ''
-  }
+  // {
+  //   from: 'Oct. 2014',
+  //   to: 'Sep. 2015',
+  //   company: 'Sykes Latin America',
+  //   position: 'Customer Service Agent',
+  //   description: ''
+  // },
+  // {
+  //   from: 'Jan. 2013',
+  //   to: 'Apr. 2014',
+  //   company: 'Ingram Micro CR',
+  //   position: 'Electronic Technician',
+  //   description: ''
+  // }
 ];
 
 export const projectItems = [
+  {
+    name: 'Harvest',
+    date: '(07/2021 - To Date)',
+    description: [
+      'Page builder application built in Nuxt.js, Node.js and MongoDB'
+    ]
+  },
   {
     name: 'JumpCloud',
     date: '(07/2020 - 10/2020)',
     description: [
       'Admin portal built in Vue.js, Node.js, Golang and MongoDB.'
-    ]
-  },
-  {
-    name: 'A Place for Mom',
-    date: '(06/2019 – 06/2018)',
-    description: [
-      'Landing pages built in vanilla JavaScript, React, AWS and GTM'
     ]
   },
   {

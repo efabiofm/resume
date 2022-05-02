@@ -19,7 +19,7 @@
 		background: #374458;
     color: white;
     display: flex;
-    padding: 2em 2em 1em 2em;
+    padding: 1.5em 2em 1em 2em;
   }
 
   .header__info > h1,

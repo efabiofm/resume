@@ -40,7 +40,7 @@
   }
 
   .text--date {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
 
   ul {

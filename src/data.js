@@ -61,8 +61,7 @@ export const experienceItems = [
     company: 'Keeper Solutions',
     position: 'Front-End Developer',
     description: [
-      'Develop brand new web applications for users to build and deploy custom websites and ads on the web.',
-      'Add new endpoints on the backend and write Mongo scripts to update existing data with new properties.'
+      'Developed a new product with Nuxt, TypeScript, Node and MongoDB from scratch for clients to build and publish custom websites online. Worked on main features such as responsive templates creation, image and video uploading, text editing and site previewing and publishing.'
     ]
   },
   {
@@ -71,8 +70,9 @@ export const experienceItems = [
     company: 'Cecropia Solutions',
     position: 'Front-End Developer',
     description: [
-      'Work on internal project creating new views using Angular to show data from backend, refactor code to follow better practices and improve styling.',
-      'Integrate shipping services with e-commerce platforms using ShipEngine.'
+      'Worked on company\'s internal product built in Angular 9 that was used to post ads on their website and manage applicants information.',
+      'Worked on UI and performance improvements and implementing different charts to display data coming from machine learning based services.',
+      'Worked with ShipEngine on a product that connects shipping services with e-commerce platforms.'
     ]
   },
   {
@@ -81,9 +81,9 @@ export const experienceItems = [
     company: 'Gorilla Logic LLC',
     position: 'Full-Stack Developer',
     description: [
-      'Add new features and bug fixes to web applications built in Vue.js, Node.js and MongoDB.',
-      'Create landing pages with lead generation forms using vanilla JavaScript and GTM for A/B testing.',
-      'Implement React, AWS Lambdas and S3 to add extra functionality to single page websites.'
+      'Worked on a cloud-based platform built in Vue, Node and MongoDB for IT departments to manage users and devices remotely.',
+      'Developed an admin dashboard with React, Redux and AWS that was used to manage multiple nursing homes information.',
+      'Created landing pages with lead generation forms using vanilla JavaScript and Google Tag Manager for A/B testing.'
     ]
   },
   {
@@ -92,12 +92,10 @@ export const experienceItems = [
     company: 'Ciris Informatic Solutions',
     position: 'Full-Stack Developer',
     description: [
-      'Develop web applications using Vue.js and AngularJS.',
-      'Build hybrid applications using Ionic and NativeScript.',
-      'Create RESTful web services using Node.js and Express.js.',
-      'Design database schemas using MongoDB and Firebase.',
-      'Get Linux servers ready for production deployments.',
-      'Setup continuous integration and delivery pipelines.'
+      'Developed several web and mobile applications from scratch using Vue, Angular, Node, Express, Ionic, NativeScript-Vue, MongoDB and Firebase for multiple industries such as Health, Food, Materials, Media, Business Support and Wildlife Protection.',
+      'Setup NGNIX web servers, register domains and implement continuous integration and delivery on GitLab for production deployments.',
+      'Contributed with improvements of company\'s codebase and implemented new tech on projects.',
+      'Meet clients in-situ for requirements gathering and design frontend and backend architecture for each project.'
     ]
   },
   // {
@@ -156,17 +154,18 @@ export const projectItems = [
 
 export const skillsItems = [
   'JavaScript',
-  'Node.js',
-  'Express.js',
-  'Vue.js',
-  'React.js',
+  'Node',
+  'Express',
+  'Vue',
+  'React',
+  'Redux',
   'Angular',
-  'Mongoose',
-  'Docker',
+  'TypeScript',
   'MongoDB',
   'HTML',
   'CSS',
   'SCSS',
+  'Tailwind',
   'PWA',
   'NativeScript',
   'Git',
@@ -178,9 +177,7 @@ export const skillsItems = [
   'Java',
   'Jest',
   'Linux',
-  'Cypress',
   'REST',
   'SQL',
-  'Scrum',
   'Svelte'
 ];

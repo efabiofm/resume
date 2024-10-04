@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export const headerText = {
   name: 'Fabio Flores Manrique',
   profession: 'Software Engineer',
-  description: 'Full-Stack Web Developer with +7 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
+  description: 'Full-Stack Web Developer with 9 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
 };
 
 export const contactItems = [

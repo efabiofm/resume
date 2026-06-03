@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export const headerText = {
   name: 'Fabio Flores Manrique',
   profession: 'Software Engineer',
-  description: 'Full-Stack Web Developer with 9 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
+  description: 'Full-Stack Web Developer with 10 years of experience building web and hybrid apps for many different industries. Critical thinking with self-motivation, adaptability, problem-solving and fast learning skills.'
 };
 
 export const contactItems = [
@@ -18,7 +18,7 @@ export const contactItems = [
   },
   {
     icon: faMapMarkerAlt,
-    value: 'San José, Costa Rica'
+    value: 'Heredia, Costa Rica'
   },
   {
     icon: faLinkedin,
@@ -45,7 +45,7 @@ export const languagesItems = [
   {
     language: 'English',
     level: 'C1 BELT Standard February 2019',
-    percentage: 85
+    percentage: 90
   },
   {
     language: 'Spanish',
@@ -56,23 +56,32 @@ export const languagesItems = [
 
 export const experienceItems = [
   {
-    from: 'Sep. 2021',
-    to: 'To Date',
-    company: 'Keeper Solutions',
-    position: 'Front-End Developer',
+    from: 'Jan. 2025',
+    to: 'Apr. 2026',
+    company: 'Valt Network',
+    position: 'Senior Frontend Developer',
     description: [
-      'Developed a new product with Nuxt, TypeScript, Node and MongoDB from scratch for clients to build and publish custom websites online. Worked on main features such as responsive templates creation, image and video uploading, text editing and site previewing and publishing.'
+      "Continued contributing to the development of Salesforce applications after transitioning from TrueNorth to a direct contract with Valt Network.",
     ]
   },
   {
-    from: 'Mar. 2021',
-    to: 'Sep. 2021',
-    company: 'Cecropia Solutions',
-    position: 'Front-End Developer',
+    from: 'Jun. 2022',
+    to: 'Dec. 2024',
+    company: 'TrueNorth',
+    position: 'Senior Frontend Developer',
     description: [
-      'Worked on company\'s internal product built in Angular 9 that was used to post ads on their website and manage applicants information.',
-      'Worked on UI and performance improvements and implementing different charts to display data coming from machine learning based services.',
-      'Worked with ShipEngine on a product that connects shipping services with e-commerce platforms.'
+      "Developed and maintained dynamic UI components using Salesforce Aura Components, improving usability and consistency across internal applications.",
+      "Implemented responsive and reusable front-end solutions, optimizing performance and reducing code duplication in large-scale modules.",
+      "Collaborated with backend team to integrate APIs and ensure accurate data rendering within Salesforce environments.",
+    ]
+  },
+  {
+    from: 'Sep. 2020',
+    to: 'Jun. 2022',
+    company: 'Keeper Solutions',
+    position: 'Senior Frontend Developer',
+    description: [
+      'Developed a new product with Nuxt, TypeScript, Node and MongoDB from scratch for clients to build and publish custom websites online. Worked on main features such as responsive templates creation, image and video uploading, text editing and site previewing and publishing.'
     ]
   },
   {
@@ -97,21 +106,7 @@ export const experienceItems = [
       'Contributed with improvements of company\'s codebase and implemented new tech on projects.',
       'Meet clients in-situ for requirements gathering and design frontend and backend architecture for each project.'
     ]
-  },
-  // {
-  //   from: 'Oct. 2014',
-  //   to: 'Sep. 2015',
-  //   company: 'Sykes Latin America',
-  //   position: 'Customer Service Agent',
-  //   description: ''
-  // },
-  // {
-  //   from: 'Jan. 2013',
-  //   to: 'Apr. 2014',
-  //   company: 'Ingram Micro CR',
-  //   position: 'Electronic Technician',
-  //   description: ''
-  // }
+  }
 ];
 
 export const projectItems = [
@@ -158,26 +153,17 @@ export const skillsItems = [
   'Express',
   'Vue',
   'React',
-  'Redux',
   'Angular',
   'TypeScript',
   'MongoDB',
-  'HTML',
-  'CSS',
-  'SCSS',
+  'HTML/CSS',
   'Tailwind',
   'PWA',
-  'NativeScript',
-  'Git',
-  'Ionic',
-  'NPM',
+  'Salesforce',
   'AWS',
   'Firebase',
   'CD/CI',
   'Java',
-  'Jest',
   'Linux',
-  'REST',
   'SQL',
-  'Svelte'
 ];
